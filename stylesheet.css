@@ -1,5 +1,18 @@
+.oswald-large-text {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+.rubik-small-text {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
 html {
-    font-family: sans-serif;
+    font-family: "Rubik";
     --head-border-gradient: linear-gradient(0.3turn, #295F98, #CDC2A5);
 }
 table {
@@ -7,12 +20,15 @@ table {
     letter-spacing: 1px;
     font-size: 0.8rem;
 }
+h1 {
+    font-family: "Oswald";
+}
 td, th {
     border: 1px solid #CDC2A5;
     padding: 10px 20px;
 }
 th {
-    background-color:
+    font-weight: 500;
 }
 td {
     text-align: center;
