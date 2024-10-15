@@ -55,3 +55,8 @@ th.stats {
 th.stats.light {
     background: linear-gradient(0.3turn, #295F98, #EAE4DD);
 }
+td:hover {
+    border-color: #295F98;
+    font-weight: 500;
+    opacity: 70%;
+}
